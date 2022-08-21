@@ -1,0 +1,23 @@
+.skill-body{
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    font-family: cursive;
+    justify-content: space-evenly;
+}
+.Skills{
+    padding: 20px;
+}
+
+.skills-header{
+    text-align: center;
+}
+
+@media  screen and (min-width: 800px) {
+    .skill-body{
+        gap: 20px;
+    }    
+}

@@ -1,0 +1,28 @@
+.LandingPage{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../imgs/Cayenneee.webp);
+    background-size: cover;
+}
+.LandingPage .details{
+    background: rgba( 250, 250, 240, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+
+}
+.LandingPage .details :nth-child(1){
+    font-size: 14px;
+}
+
+.LandingPage .details :nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    color: #031010;
+}
+.LandingPage .details :nth-child(3){
+    font-size: 16px;
+
+}
