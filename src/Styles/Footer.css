@@ -1,0 +1,25 @@
+.Footer{
+    background: rgb(39, 66, 126);
+    height: 20vh;
+    padding: 3rem;
+    color: white;
+    text-align: center;
+}
+.footer-header h2{
+    font-weight: 600;
+}
+
+
+.footer-header::before{
+    display: block;
+    margin: 1px solid white;
+    width: 200px;
+}
+
+
+
+
+.footer-body{
+    font-weight: 300;
+    font-size: 13px;
+}

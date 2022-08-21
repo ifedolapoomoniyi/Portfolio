@@ -1,0 +1,15 @@
+.GetInTouch{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contact-socials{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(234, 231, 231);
+    gap: 5px;
+}
+.contact-socials:hover{
+    border: 1px solid grey;
+    background-color: #dedede;
+}

@@ -1,7 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../Styles/Navbar.css'
 
 const Navbar = () => {
+  useEffect(()=> {
+    const hamburger = document.querySelector('.hamburger');
+    const navbarRoutes = document.querySelector('.navbar-routes');
+
+    hamburger.addEventListener('click', mobileMenu);
+
+    function mobileMenu() {
+      hamburger.classList.toggle('active');
+      navbarRoutes.classList.toggle('active');
+    }
+
+    const navbarLink =  document.querySelectorAll('.navbar-link');
+
+    navbarLink.forEach((n)=> n.addEventListener('click', closeMenu));
+
+    function closeMenu() {
+      hamburger.classList.toggle("active");
+      navbarRoutes.classList.toggle("active");     
+    }
+  }, []);
+
   return (
     <div className="navbar">
         <div className="navbar-name">
@@ -14,6 +35,11 @@ const Navbar = () => {
             <a href="#" className="navbar-link">Services</a>
             <a href="#" className="navbar-link">Projects</a>
             <a href="#" className="navbar-link">Contact Me</a>
+        </div>
+        <div className="hamburger">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
     </div>
   )
