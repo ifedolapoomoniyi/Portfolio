@@ -11,7 +11,7 @@ import "../Styles/Skills.css";
 const Skills = () => {
   const fontSize = { size: 160 };
   return (
-    <div className="Skills">
+    <div className="Skills" id="skills">
       <div className="skills-header">
         <h1>My Skills</h1>
         <p>

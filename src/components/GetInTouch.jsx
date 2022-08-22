@@ -6,7 +6,7 @@ import {UilEnvelope, UilTwitter, UilLinkedin, UilWhatsappAlt, UilPhone} from '@i
 
 const GetInTouch = () => {
   return (
-    <div className="GetInTouch">
+    <div className="GetInTouch" id="contact">
         <div className="Contact-header">
             <h1>Get In Touch</h1>
             <p>Come Network with me on social media... Or you can send me an email if you're old fashioned like that</p>
