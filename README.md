@@ -1,3 +1,5 @@
+#This was for an assignment, def not my actual portfolio
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
