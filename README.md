@@ -1,4 +1,4 @@
-#This was for an assignment, def not my actual portfolio
+# This was for an assignment, def not my actual portfolio
 
 # Getting Started with Create React App
 
